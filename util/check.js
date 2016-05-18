@@ -3,15 +3,13 @@
 /**
  * check 
  */
-
-const path = require('path');
-const fs = require('fs');
-const isRoot = require('is-root');
-const updateNotifier = require('update-notifier');
-const pkg = require('../package.json');
-const logger = require('./logger');
-const PLUGIN_PATH = require('./path').PLUGIN_PATH;
-
+const fs                = require('fs');
+const pkg               = require('../package.json');
+const path              = require('path');
+const isRoot            = require('is-root');
+const logger            = require('./logger');
+const PLUGIN_PATH       = require('./path').PLUGIN_PATH;
+const updateNotifier    = require('update-notifier');
 
 
 // Checks for available update and returns an instance 
@@ -21,7 +19,7 @@ const notifier = updateNotifier({pkg});
 notifier.notify();
 
 // `notifier.update` contains some useful info about the update 
-console.log(notifier);
+// console.log(notifier);
 
 /**
  * registry.

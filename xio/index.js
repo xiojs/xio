@@ -1,4 +1,9 @@
-#!/usr/bin/env node
+"use strict";
+
+/**
+ * index 
+ * 
+ */
 
 
 const path      = require('path');
@@ -7,11 +12,7 @@ const check     = require('../util/check');
 const program   = require('commander');
 const config    = require('../util/config');
 
-// import path     from 'path';
-// import PATH     from '../util/path';
-// import check    from '../util/check';
-// import program  from 'commander';
-// import config   from '../util/config';
+
 
 // prevent sudo
 if (process.argv.indexOf('--allow-root') < 0) {
@@ -21,8 +22,7 @@ if (process.argv.indexOf('--allow-root') < 0) {
 check.initPluginPackage()
 config.init()
 
-// console.log(config.get('updateCheck'))
-
+console.log(config.get('updateCheck'))
 if (config.get('updateCheck')) {
   check.checkVersion()
 }
@@ -56,8 +56,7 @@ program
   .command('watch', '开发模式 development')
   .command('build', '生产模式 production')
   
-
-
+  
 // 加载动态指令
 require('../util/load-command')(program)
 program.parse(process.argv)

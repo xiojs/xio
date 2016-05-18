@@ -6,19 +6,17 @@
  * 
  */
 
+const chalk   = require('chalk');
+const format  = require('util').format;
 
-const format = require('util').format;
-const chalk = require('chalk');
 
-
-console.log(chalk.blue('Hello xiojs!'));
 
 
 /**
  * Prefix
  */
 const prefix = '[xio]';
-const sep = chalk.gray('-');
+const sep    = chalk.gray('-');
       
 
  /**
