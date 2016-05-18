@@ -24,5 +24,8 @@
     "commander": "^2.9.0",
     "is-root": "^1.0.0",
     "update-notifier": "^0.7.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
   }
 }

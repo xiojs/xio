@@ -1,13 +1,16 @@
+"use strict";
+
 /**
  * check 
  */
 
-const path = require('path'),
-    fs = require('fs'),
-    isRoot = require('is-root'),
-    updateNotifier = require('update-notifier'),
-    pkg = require('../package.json'),
-    PLUGIN_PATH = require('./path').PLUGIN_PATH;
+const path = require('path');
+const fs = require('fs');
+const isRoot = require('is-root');
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+const logger = require('./logger');
+const PLUGIN_PATH = require('./path').PLUGIN_PATH;
 
 
 

@@ -1,8 +1,10 @@
+"use strict;"
+
 /**
  * path get
  */
 
-const path = require('path'),
+const path = require('path');
 const ROOT_PATH = path.join(__dirname, '..');
 
 exports.CWD_PATH = process.cwd()
