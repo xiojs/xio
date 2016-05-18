@@ -7,11 +7,11 @@
  */
 
 
-var isString = require('./is').string
-var logger = require('./logger')
+const isString = require('./is').string
+const logger = require('./logger')
 
 module.exports = function (entry, host, enable) {
-  var result = {}
+  let result = {}
 
   if (!entry) {
     logger.fatal('请配置 entry')
@@ -27,8 +27,8 @@ module.exports = function (entry, host, enable) {
 
   if (enable) {
   // add hot-reload related code to entry chunks
-    var webpackDevServer = 'webpack-dev-server/client?' + host + '/'
-    var hotDevServer = 'webpack/hot/dev-server'
+    let webpackDevServer = 'webpack-dev-server/client?' + host + '/'
+    let hotDevServer = 'webpack/hot/dev-server'
 
     Object.keys(result).forEach(function (name) {
       result[name] = [hotDevServer, webpackDevServer].concat(result[name])

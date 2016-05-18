@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 
-const exec = require('../util/exec')
-const logger = require('../util/logger')
-const config = require('../util/config')
-const json = require('format-json')
+const exec    = require('../util/exec')
+const logger  = require('../util/logger')
+const config  = require('../util/config')
+const json    = require('format-json')
 
 
 const program   = require('commander').parse(process.argv);

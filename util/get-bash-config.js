@@ -5,12 +5,13 @@
  * 
  */
 
-var path = require('path')
-var webpack = require('webpack')
-var PATH = require('./path')
+const path      = require('path')
+const PATH      = require('./path')
+const webpack   = require('webpack')
+
 
 module.exports = function (userConfig) {
-  var limit = 1
+  let limit = 1
   if (userConfig.urlLoaderLimit !== false) {
     limit = userConfig.urlLoaderLimit || 10000
   }

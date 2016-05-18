@@ -6,7 +6,7 @@
  * 
  */
 
-var toString = Object.prototype.toString
+const toString = Object.prototype.toString
 
 function type(obj) {
   return toString.call(obj)
