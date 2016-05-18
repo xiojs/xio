@@ -1,3 +1,3 @@
 ## xioJs
 
-[![xiojs](./file/xio.png)](http://www.nnn.li/)
+[![xiojs](./file/xio.svg)](http://www.nnn.li/)
