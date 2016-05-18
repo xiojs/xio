@@ -1,3 +1,3 @@
 ## xioJs
 
-![xiojs](./file/xio.svg)
+![xiojs](./file/xio-b.png)
