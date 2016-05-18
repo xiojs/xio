@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "xio":"bin/xio.js"
+    "xio": "bin/xio.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/xiojs/xio/issues"
   },
-  "homepage": "https://github.com/xiojs/xio#readme"
+  "homepage": "https://github.com/xiojs/xio#readme",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "is-root": "^1.0.0",
+    "update-notifier": "^0.7.0"
+  }
 }

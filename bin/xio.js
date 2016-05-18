@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-var path = require('path')
-
-console.log(path);
+const path = require('path'),
+    program = require('commander'),
+    PATH = require('../util/path'),
+    check = require('../util/check')
+    
