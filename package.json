@@ -8,7 +8,7 @@
     "xio": "bin/xio.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/xio.js"
   },
   "repository": {
     "type": "git",
