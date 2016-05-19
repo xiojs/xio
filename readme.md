@@ -15,12 +15,7 @@ Build
 [![devDependency Status][david-dev-image]][david-dev-url]
 
 
-
-
 [![NPMI][nodei-image]][nodei-url]
-
-
-
 
 
 [david-dev-url]: https://david-dm.org/xiojs/xio#info=devDependencies
