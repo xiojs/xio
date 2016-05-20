@@ -28,6 +28,12 @@ Build
 
 Quick Tools
 
+
+## error
+
+No End Development,Do not use ! :cat:
+
+
 ## Use
 
 node > 5
@@ -48,7 +54,7 @@ npm i -g xio
 
 ## License
 
-MIT
+[MIT](./CHANGELOG.md)
 
 
 
