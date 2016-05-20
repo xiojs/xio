@@ -1,10 +1,10 @@
 {
   "name": "xio",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "xio",
   "preferGlobal": true,
   "bin": {
-    "xio": "bin/xio.js"
+    "xio": "./bin/xio.js"
   },
   "main": "index.js",
   "scripts": {
