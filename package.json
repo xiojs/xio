@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.3",
+    "shelljs": "^0.7.0",
     "slush": "^1.1.1"
   }
 }
